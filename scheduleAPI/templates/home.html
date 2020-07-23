@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Scheduling API</h1>
+<h3>{{name}}</h3>
+<form action="check">
+    Enter the date: <input type="datetime-local" name="date1"><br>
+    <br>
+    <input type="submit" style="background-color: green;">
+</form>
+*<i>Directly click on TODAY to get current date and time</i>
+{% endblock %}
